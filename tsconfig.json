@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "lib": ["es5", "dom"],
+      "types": ["cypress", "node"],
+      "module": "node16",
+      "esModuleInterop": true,
+      "allowImportingTsExtensions": true,
+      "paths": {
+        "@badeball/cypress-cucumber-preprocessor/*": ["./node_modules/@badeball/cypress-cucumber-preprocessor/dist/subpath-entrypoints/*"]
+      }
+    },
+    "include": ["**/*.ts"]
+}
